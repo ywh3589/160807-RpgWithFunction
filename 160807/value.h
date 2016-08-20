@@ -110,7 +110,7 @@ typedef struct _tagPlayer
 	int		iLevel;
 	int		iExp;
 	int		iGold;
-	PINVENTORY strInventory[ITEM_SIZE];
+	PITEM	strItem[ITEM_SIZE];		//아이템을 장착할 수 있는 공간 추가 
 }PLAYER, *PPLAYER;
 
 typedef struct _tagMonster
